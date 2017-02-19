@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let foo = Speed.medium
+        let too = Speed.slow
+        foo.isFaster(thanSpeed: too)
     }
 
 }
